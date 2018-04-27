@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hike Roulette</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Hike Roulette</h1>
+        <h2>A Random Hike Generator</h2>
+    </header>
+    <main>
+        <div id="form-and-map-container">
+            <form action="search">
+                <label for=""><i class="far fa-compass"></i> Enter Your Location</label>
+                <input type="text" id="location-search">
+                <label for=""><i class="fas fa-car"></i> How Far Do You Want To Travel?</label>
+                <select name="Miles Within" id="distance-to-travel">
+                    <option disabled selected>Traveling Distance</option>
+                    <option>50 miles or less</option>
+                    <option>100 miles or less</option>
+                    <option>200 miles or less</option>
+                </select>
+                <label for=""><i class="fas fa-tree"></i> How Far Do You Want To Hike?</label>
+                <select name="" id="length-of-hike">
+                    <option disabled selected>Length of Hike</option>
+                    <option>At Least 5 Miles</option>
+                    <option>At Least 10 Miles</option>
+                    <option>At Least 20 Miles</option>
+                </select>
+                <label for="">Find Your Hike</label>
+                <button id="search-button"><i class="fas fa-search"></i> Search</button>
+            </form>
+            <div id="map">
+
+            </div>
+        </div>
+        <div class="results-container">
+            <div class="results-container-left"></div>             
+            <div class="results-container-right"></div>
+        </div>
+    </main>
+    <footer>
+        <small>
+            Coleman Imhoff 2018
+        </small>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4yXevHDF0z_UQXzORlWSBxvO0WjLF2n8&libraries=places&output&types=cities&callback=initDefaultMap"
+        async defer>
+    </script>
+</body>
+
+</html>
