@@ -14,7 +14,6 @@ function buildHike(event) {
     .then(initNewMap)
     .then(coords => buildHikeUrl(coords))
     .then(url => retrieveData(url))
-    // .then(hikes => console.log(hikes))
     .then(handleResponse)
 }
 
@@ -63,7 +62,7 @@ function initDefaultMap() {
     locationAutocomplete()
     const options = {
         zoom: 1,
-        center: { lat: 38.9072, lng: -77.0369 }
+        center: { lat: 0, lng: 0 }
     }
     const map = new google.maps.Map(document.getElementById('map'), options)
 }
@@ -81,7 +80,6 @@ function initNewMap({lat, lng}) {
     })
     return  { lat, lng }
 }
-
 
 function locationAutocomplete(event) {
     const options = {
@@ -215,7 +213,9 @@ function randomIndex(number) {
 }
 
 function handleResponse(hikes) {
-    hikes.trails.length ===  0 ? createPlaceholder() : buildHikeCard(hikes.trails[randomIndex(hikes.trails.length)])
+    hikes.trails.length ===  0 
+        ? createPlaceholder() 
+        : buildHikeCard(hikes.trails[randomIndex(hikes.trails.length)])
 }
 
 function clearContainers () {
