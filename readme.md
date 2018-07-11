@@ -24,6 +24,10 @@ Coming Soon in React.js!
 
 ![Hike Roulette](hike-roulette.png "Hike Roulette")
 
+## License
+
+See MIT License
+
 ### Created by Coleman Imhoff
 [LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
 colemanimhoff@gmail.com
