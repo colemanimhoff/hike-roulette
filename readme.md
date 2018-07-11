@@ -1,20 +1,20 @@
-#Hike Roulette
+# Hike Roulette
 
-##Description
+## Description
 
 Hike Roulette provides access hiking trails based on a user's location. Its takes away the pressure of scouring the internet for the perfect hike and instead provides an opportunity for real uninhibited adventure.
 
-##Technologies
+## Technologies
 
 Built With Javascript, HTML, and CSS
 
 Coming Soon in React.js!
 
-##Visit Website
+## Visit Website
 
 [Link to Deployed Site](https://hike-roulette.firebaseapp.com/)
 
-##Getting Started
+## Getting Started
  
 1. Click [here](https://hike-roulette.firebaseapp.com/).
 2. Type in your city.
