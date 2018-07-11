@@ -24,6 +24,10 @@ Coming Soon in React.js!
 
 ![Hike Roulette](hike-roulette.png "Hike Roulette")
 
+## Technologies
+
+Built with Vanilla JavaScript, HTML, CSS, as well as Google Maps API and REI API.
+
 ## License
 
 See MIT License
