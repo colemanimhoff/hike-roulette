@@ -24,4 +24,4 @@ Coming Soon in React.js!
 
 [Link to Demo Video](https://www.youtube.com/watch?v=A6SpcmAkPlo)
 
-![alt text](hike-roulette.png "Hike Roulette")
+![Hike Roulette](hike-roulette.png "Hike Roulette")
