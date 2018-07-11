@@ -33,5 +33,5 @@ Built with Vanilla JavaScript, HTML, CSS, as well as Google Maps API and REI API
 See MIT License
 
 ### Created by Coleman Imhoff
-[LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
-colemanimhoff@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
+- colemanimhoff@gmail.com
