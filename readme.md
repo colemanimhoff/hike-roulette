@@ -20,8 +20,10 @@ Coming Soon in React.js!
 2. Type in your city.
 3. Choose how far you want to travel.
 4. Choose how far you want to hike.
-
-
-[Link to Demo Video](https://www.youtube.com/watch?v=A6SpcmAkPlo)
+5. Click [here](https://www.youtube.com/watch?v=A6SpcmAkPlo) for a video demo.
 
 ![Hike Roulette](hike-roulette.png "Hike Roulette")
+
+### Created by Coleman Imhoff
+[LinkedIn](https://www.linkedin.com/in/colemanimhoff/)
+colemanimhoff@gmail.com
